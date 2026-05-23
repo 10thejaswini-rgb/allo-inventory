@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "skipLibCheck": true
+  },
+  "include": ["prisma/seed.ts"]
+}
