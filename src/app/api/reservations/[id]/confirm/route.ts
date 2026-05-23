@@ -102,8 +102,9 @@ export async function POST(
             { status: 410 }
           );
         }
+        const reservation = result.reservation as NonNullable<typeof result.reservation>;
 
-        const reservation = result.reservation!;
+       
        
         const dto: ReservationDTO = {
           id: reservation.id,
